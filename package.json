@@ -1,9 +1,9 @@
 {
-    "name": "semaphore-protocol",
+    "name": "@cryptkeeperzk/semaphore-protocol",
     "description": "A zero-knowledge protocol for anonymous signalling on Ethereum.",
     "license": "MIT",
     "repository": "git@github.com:semaphore-protocol/semaphore.git",
-    "homepage": "https://github.com/semaphore-protocol/semaphore",
+    "homepage": "https://github.com/CryptKeeperZK/semaphore",
     "bugs": "https://github.com/semaphore-protocol/semaphore/issues",
     "private": true,
     "scripts": {

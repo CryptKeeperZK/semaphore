@@ -12,11 +12,11 @@
     <a href="https://github.com/semaphore-protocol/semaphore/blob/main/LICENSE">
         <img alt="Github license" src="https://img.shields.io/github/license/semaphore-protocol/semaphore.svg?style=flat-square">
     </a>
-    <a href="https://www.npmjs.com/package/@semaphore-protocol/group">
-        <img alt="NPM version" src="https://img.shields.io/npm/v/@semaphore-protocol/group?style=flat-square" />
+    <a href="https://www.npmjs.com/package/@cryptkeeperzk/semaphore-group">
+        <img alt="NPM version" src="https://img.shields.io/npm/v/@cryptkeeperzk/semaphore-group?style=flat-square" />
     </a>
-    <a href="https://npmjs.org/package/@semaphore-protocol/group">
-        <img alt="Downloads" src="https://img.shields.io/npm/dm/@semaphore-protocol/group.svg?style=flat-square" />
+    <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-group">
+        <img alt="Downloads" src="https://img.shields.io/npm/dm/@cryptkeeperzk/semaphore-group.svg?style=flat-square" />
     </a>
     <a href="https://js.semaphore.appliedzkp.org/group">
         <img alt="Documentation typedoc" src="https://img.shields.io/badge/docs-typedoc-744C7C?style=flat-square">
@@ -56,16 +56,16 @@
 
 ### npm or yarn
 
-Install the `@semaphore-protocol/group` package with npm:
+Install the `@cryptkeeperzk/semaphore-group` package with npm:
 
 ```bash
-npm i @semaphore-protocol/group
+npm i@cryptkeeperzk/semaphore-group
 ```
 
 or yarn:
 
 ```bash
-yarn add @semaphore-protocol/group
+yarn add@cryptkeeperzk/semaphore-group
 ```
 
 ## 📜 Usage
@@ -73,8 +73,8 @@ yarn add @semaphore-protocol/group
 \# **new Group**(groupId: _Member_, treeDepth = 20): _Group_
 
 ```typescript
-import { Group } from "@semaphore-protocol/group"
-import { Identity } from "@semaphore-protocol/identity"
+import { Group } from "@cryptkeeperzk/semaphore-group"
+import { Identity } from "@cryptkeeperzk/semaphore-identity"
 
 // Group with max 1048576 members (20^²).
 const group1 = new Group(1)
@@ -96,7 +96,7 @@ const group3 = new Group(1, 16, [identity1.commitment, identity2.commitment, ide
 \# **addMember**(identityCommitment: _Member_)
 
 ```typescript
-import { Identity } from "@semaphore-protocol/identity"
+import { Identity } from "@cryptkeeperzk/semaphore-identity"
 
 const identity = new Identity()
 const commitment = identity.generateCommitment()

@@ -1,5 +1,6 @@
 {
-    "name": "@semaphore-protocol/hardhat",
+    "name": "@cryptkeeperzk/semaphore-hardhat",
+    "private":"true",
     "version": "3.10.1",
     "description": "A Semaphore Hardhat plugin to deploy verifiers and Semaphore contract.",
     "license": "MIT",
@@ -15,7 +16,7 @@
         "LICENSE",
         "README.md"
     ],
-    "repository": "https://github.com/semaphore-protocol/semaphore",
+    "repository": "https://github.com/CryptKeeperZK/semaphore",
     "homepage": "https://github.com/semaphore-protocol/semaphore/tree/main/packages/hardhat",
     "bugs": {
         "url": "https://github.com/semaphore-protocol/semaphore.git/issues"
@@ -24,9 +25,6 @@
         "build:watch": "rollup -c rollup.config.ts -w --configPlugin typescript",
         "build": "rimraf dist && rollup -c rollup.config.ts --configPlugin typescript",
         "prepublishOnly": "yarn build"
-    },
-    "publishConfig": {
-        "access": "public"
     },
     "devDependencies": {
         "hardhat": "^2.0.0",

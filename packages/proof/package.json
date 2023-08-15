@@ -1,5 +1,5 @@
 {
-    "name": "@semaphore-protocol/proof",
+    "name": "@cryptkeeperzk/semaphore-proof",
     "version": "3.10.1",
     "description": "A library to generate and verify Semaphore proofs.",
     "license": "MIT",
@@ -15,7 +15,7 @@
         "LICENSE",
         "README.md"
     ],
-    "repository": "https://github.com/semaphore-protocol/semaphore",
+    "repository": "https://github.com/CryptKeeperZK/semaphore",
     "homepage": "https://github.com/semaphore-protocol/semaphore/tree/main/packages/proof",
     "bugs": {
         "url": "https://github.com/semaphore-protocol/semaphore.git/issues"
@@ -33,22 +33,22 @@
         "@rollup/plugin-commonjs": "^24.1.0",
         "@rollup/plugin-json": "^5.0.1",
         "@rollup/plugin-node-resolve": "^15.0.2",
-        "ffjavascript": "^0.2.54",
         "poseidon-lite": "^0.2.0",
         "rollup-plugin-cleanup": "^3.2.1",
         "rollup-plugin-typescript2": "^0.31.2",
         "typedoc": "^0.22.11"
     },
     "peerDependencies": {
-        "@semaphore-protocol/group": "3.10.1",
-        "@semaphore-protocol/identity": "3.10.1"
+        "@cryptkeeperzk/semaphore-group": "3.10.1",
+        "@cryptkeeperzk/semaphore-identity": "3.10.1"
     },
     "dependencies": {
+        "@cryptkeeperzk/ffjavascript": "^0.2.59",
+        "@cryptkeeperzk/snarkjs": "^0.7.1",
         "@ethersproject/bignumber": "^5.5.0",
         "@ethersproject/bytes": "^5.7.0",
         "@ethersproject/keccak256": "^5.7.0",
         "@ethersproject/strings": "^5.5.0",
-        "@zk-kit/incremental-merkle-tree": "0.4.3",
-        "snarkjs": "0.4.13"
+        "@zk-kit/incremental-merkle-tree": "0.4.3"
     }
 }

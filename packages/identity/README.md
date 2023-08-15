@@ -12,11 +12,11 @@
     <a href="https://github.com/semaphore-protocol/semaphore/blob/main/LICENSE">
         <img alt="Github license" src="https://img.shields.io/github/license/semaphore-protocol/semaphore.svg?style=flat-square">
     </a>
-    <a href="https://www.npmjs.com/package/@semaphore-protocol/identity">
-        <img alt="NPM version" src="https://img.shields.io/npm/v/@semaphore-protocol/identity?style=flat-square" />
+    <a href="https://www.npmjs.com/package/@cryptkeeperzk/semaphore-identity">
+        <img alt="NPM version" src="https://img.shields.io/npm/v/@cryptkeeperzk/semaphore-identity?style=flat-square" />
     </a>
-    <a href="https://npmjs.org/package/@semaphore-protocol/identity">
-        <img alt="Downloads" src="https://img.shields.io/npm/dm/@semaphore-protocol/identity.svg?style=flat-square" />
+    <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-identity">
+        <img alt="Downloads" src="https://img.shields.io/npm/dm/@cryptkeeperzk/semaphore-identity.svg?style=flat-square" />
     </a>
     <a href="https://js.semaphore.appliedzkp.org/identity">
         <img alt="Documentation typedoc" src="https://img.shields.io/badge/docs-typedoc-744C7C?style=flat-square">
@@ -56,16 +56,16 @@
 
 ### npm or yarn
 
-Install the `@semaphore-protocol/identity` package with npm:
+Install the `@cryptkeeperzk/semaphore-identity` package with npm:
 
 ```bash
-npm i @semaphore-protocol/identity
+npm i @cryptkeeperzk/semaphore-identity
 ```
 
 or yarn:
 
 ```bash
-yarn add @semaphore-protocol/identity
+yarn add @cryptkeeperzk/semaphore-identity
 ```
 
 ## 📜 Usage
@@ -73,7 +73,7 @@ yarn add @semaphore-protocol/identity
 \# **new Identity**(identityOrMessage?: _string_): _Identity_
 
 ```typescript
-import { Identity } from "@semaphore-protocol/identity"
+import { Identity } from "@cryptkeeperzk/semaphore-identity"
 
 // The identity can be generated randomly.
 const identity1 = new Identity()

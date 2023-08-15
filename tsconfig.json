@@ -12,9 +12,20 @@
         "declaration": true,
         "allowSyntheticDefaultImports": true,
         "declarationDir": "types",
-        "typeRoots": ["node_modules/@types", "types"],
+        "typeRoots": [
+            "node_modules/@types",
+            "types"
+        ],
         "paths": {
-            "@semaphore-protocol/*": ["packages/*/src"]
+            "@cryptkeeperzk/semaphore-*": [
+                "packages/*/src"
+            ],
+            "@cryptkeeperzk/@cryptkeeperzk/ffjavascript": [
+                "./src/types/ffjavascript"
+            ],
+            "@cryptkeeperzk/snarkjs": [
+                "./src/types/snarkjs"
+            ],
         }
     },
     "ts-node": {

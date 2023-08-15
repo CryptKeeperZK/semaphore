@@ -97,8 +97,8 @@ fetch("/api/register" /* Replace this with your endpoint */, {
 const { identity } = await HeyAuthn.fromRegister(options)
 
 // Get existing group and signal anonymously (pseudocode).
-import { Group } from "@semaphore-protocol/group"
-import { generateProof } from "@semaphore-protocol/proof"
+import { Group } from "@cryptkeeperzk/semaphore-group"
+import { generateProof } from "@cryptkeeperzk/semaphore-proof"
 import { utils } from "ethers"
 
 const group = new Group("42")

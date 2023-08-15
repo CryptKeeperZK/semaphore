@@ -5,7 +5,7 @@ import {
     GenerateAuthenticationOptionsOpts as AuthenticationOptions
 } from "@simplewebauthn/server"
 import { startAuthentication, startRegistration } from "@simplewebauthn/browser"
-import { Identity } from "@semaphore-protocol/identity"
+import { Identity } from "@cryptkeeperzk/semaphore-identity"
 
 export default class HeyAuthn {
     private _identity: Identity

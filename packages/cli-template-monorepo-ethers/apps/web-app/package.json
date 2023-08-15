@@ -9,11 +9,11 @@
         "start": "next start"
     },
     "dependencies": {
+        "@cryptkeeperzk/semaphore-group": "3.10.1",
+        "@cryptkeeperzk/semaphore-identity": "3.10.1",
+        "@cryptkeeperzk/semaphore-proof": "3.10.1",
         "@next/font": "13.0.3",
         "@semaphore-protocol/data": "3.10.1",
-        "@semaphore-protocol/group": "3.10.1",
-        "@semaphore-protocol/identity": "3.10.1",
-        "@semaphore-protocol/proof": "3.10.1",
         "@types/react": "18.0.25",
         "@types/react-dom": "18.0.8",
         "dotenv": "^16.0.3",

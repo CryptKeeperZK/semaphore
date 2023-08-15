@@ -1,4 +1,4 @@
-import { Identity } from "@semaphore-protocol/identity"
+import { Identity } from "@cryptkeeperzk/semaphore-identity"
 
 // eslint-disable-next-line import/prefer-default-export
 export function createIdentityCommitments(n: number): bigint[] {

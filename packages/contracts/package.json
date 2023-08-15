@@ -15,12 +15,12 @@
         "lint": "solhint 'contracts/**/*.sol'"
     },
     "devDependencies": {
+        "@cryptkeeperzk/semaphore-group": "workspace:packages/group",
+        "@cryptkeeperzk/semaphore-identity": "workspace:packages/identity",
+        "@cryptkeeperzk/semaphore-proof": "workspace:packages/proof",
         "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
         "@nomiclabs/hardhat-ethers": "^2.0.6",
         "@nomiclabs/hardhat-etherscan": "^3.1.7",
-        "@semaphore-protocol/group": "workspace:packages/group",
-        "@semaphore-protocol/identity": "workspace:packages/identity",
-        "@semaphore-protocol/proof": "workspace:packages/proof",
         "@typechain/ethers-v5": "^10.0.0",
         "@typechain/hardhat": "^6.0.0",
         "@types/chai": "^4.3.0",
@@ -38,7 +38,6 @@
         "js-logger": "^1.6.1",
         "prettier-plugin-solidity": "^1.0.0-beta.19",
         "rimraf": "^3.0.2",
-        "snarkjs": "^0.4.13",
         "solhint": "^3.3.6",
         "solhint-plugin-prettier": "^0.0.5",
         "solidity-coverage": "^0.7.21",
@@ -62,6 +61,7 @@
         }
     },
     "dependencies": {
+        "@cryptkeeperzk/snarkjs": "^0.7.1",
         "@openzeppelin/contracts": "4.7.3",
         "@zk-kit/incremental-merkle-tree.sol": "1.3.3"
     }

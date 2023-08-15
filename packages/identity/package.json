@@ -1,5 +1,5 @@
 {
-    "name": "@semaphore-protocol/identity",
+    "name": "@cryptkeeperzk/semaphore-identity",
     "version": "3.10.1",
     "description": "A library to create Semaphore identities.",
     "license": "MIT",
@@ -15,7 +15,7 @@
         "LICENSE",
         "README.md"
     ],
-    "repository": "https://github.com/semaphore-protocol/semaphore",
+    "repository": "https://github.com/CryptKeeperZK/semaphore",
     "homepage": "https://github.com/semaphore-protocol/semaphore/tree/main/packages/identity",
     "bugs": {
         "url": "https://github.com/semaphore-protocol/semaphore.git/issues"
@@ -25,9 +25,6 @@
         "build": "rimraf dist && rollup -c rollup.config.ts --configPlugin typescript",
         "prepublishOnly": "yarn build",
         "docs": "typedoc src/index.ts --out ../../docs/identity"
-    },
-    "publishConfig": {
-        "access": "public"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^24.0.1",

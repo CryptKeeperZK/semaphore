@@ -5,7 +5,7 @@
         <source media="(prefers-color-scheme: light)" srcset="https://github.com/semaphore-protocol/website/blob/main/static/img/semaphore-icon.svg">
         <img width="40" alt="Semaphore icon." src="https://github.com/semaphore-protocol/website/blob/main/static/img/semaphore-icon.svg">
       </picture>
-      Semaphore
+      @CryptKeeper/semaphore
     </h1>
 </p>
 
@@ -58,6 +58,8 @@
     </h4>
 </div>
 
+>NOTE: This package is a forked version of Semaphore protocol to make it work inside CryptKeeper extension using forked `@cryptkeeperzk/snarkjs` and `@cryptkeeperzk/ffjavascript`
+
 | Semaphore is a protocol, designed to be a simple and generic privacy layer for Ethereum DApps. Using zero knowledge, Ethereum users can prove their membership of a group and send signals such as votes or endorsements without revealing their original identity. |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
@@ -92,7 +94,7 @@ The core of the Semaphore protocol is in the [circuit logic](/packages/circuits/
         <tr>
             <td>
                 <a href="/packages/identity">
-                    @semaphore-protocol/identity
+                    @cryptkeeperzk/semaphore-identity
                 </a>
                 <a href="https://js.semaphore.appliedzkp.org/identity">
                     (docs)
@@ -100,21 +102,21 @@ The core of the Semaphore protocol is in the [circuit logic](/packages/circuits/
             </td>
             <td>
                 <!-- NPM version -->
-                <a href="https://npmjs.org/package/@semaphore-protocol/identity">
-                    <img src="https://img.shields.io/npm/v/@semaphore-protocol/identity.svg?style=flat-square" alt="NPM version" />
+                <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-identity">
+                    <img src="https://img.shields.io/npm/v/@cryptkeeperzk/semaphore-identity.svg?style=flat-square" alt="NPM version" />
                 </a>
             </td>
             <td>
                 <!-- Downloads -->
-                <a href="https://npmjs.org/package/@semaphore-protocol/identity">
-                    <img src="https://img.shields.io/npm/dm/@semaphore-protocol/identity.svg?style=flat-square" alt="Downloads" />
+                <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-identity">
+                    <img src="https://img.shields.io/npm/dm/@cryptkeeperzk/semaphore-identity.svg?style=flat-square" alt="Downloads" />
                 </a>
             </td>
         </tr>
         <tr>
             <td>
                 <a href="/packages/group">
-                    @semaphore-protocol/group
+                   @cryptkeeperzk/semaphore-group
                 </a>
                 <a href="https://js.semaphore.appliedzkp.org/group">
                     (docs)
@@ -122,21 +124,21 @@ The core of the Semaphore protocol is in the [circuit logic](/packages/circuits/
             </td>
             <td>
                 <!-- NPM version -->
-                <a href="https://npmjs.org/package/@semaphore-protocol/group">
-                    <img src="https://img.shields.io/npm/v/@semaphore-protocol/group.svg?style=flat-square" alt="NPM version" />
+                <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-group">
+                    <img src="https://img.shields.io/npm/v/@cryptkeeperzk/semaphore-group.svg?style=flat-square" alt="NPM version" />
                 </a>
             </td>
             <td>
                 <!-- Downloads -->
-                <a href="https://npmjs.org/package/@semaphore-protocol/group">
-                    <img src="https://img.shields.io/npm/dm/@semaphore-protocol/group.svg?style=flat-square" alt="Downloads" />
+                <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-group">
+                    <img src="https://img.shields.io/npm/dm/@cryptkeeperzk/semaphore-group.svg?style=flat-square" alt="Downloads" />
                 </a>
             </td>
         </tr>
         <tr>
             <td>
                 <a href="/packages/proof">
-                    @semaphore-protocol/proof
+                    @cryptkeeperzk/semaphore-proof
                 </a>
                 <a href="https://js.semaphore.appliedzkp.org/proof">
                     (docs)
@@ -144,14 +146,14 @@ The core of the Semaphore protocol is in the [circuit logic](/packages/circuits/
             </td>
             <td>
                 <!-- NPM version -->
-                <a href="https://npmjs.org/package/@semaphore-protocol/proof">
-                    <img src="https://img.shields.io/npm/v/@semaphore-protocol/proof.svg?style=flat-square" alt="NPM version" />
+                <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-proof">
+                    <img src="https://img.shields.io/npm/v/@cryptkeeperzk/semaphore-proof.svg?style=flat-square" alt="NPM version" />
                 </a>
             </td>
             <td>
                 <!-- Downloads -->
-                <a href="https://npmjs.org/package/@semaphore-protocol/proof">
-                    <img src="https://img.shields.io/npm/dm/@semaphore-protocol/proof.svg?style=flat-square" alt="Downloads" />
+                <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-proof">
+                    <img src="https://img.shields.io/npm/dm/@cryptkeeperzk/semaphore-proof.svg?style=flat-square" alt="Downloads" />
                 </a>
             </td>
         </tr>

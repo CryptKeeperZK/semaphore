@@ -1,5 +1,6 @@
 {
-    "name": "@semaphore-protocol/group",
+    "name": "@cryptkeeperzk/semaphore-group",
+    "private":"true",
     "version": "3.10.1",
     "description": "A library to create and manage Semaphore groups.",
     "license": "MIT",
@@ -15,7 +16,7 @@
         "LICENSE",
         "README.md"
     ],
-    "repository": "https://github.com/semaphore-protocol/semaphore",
+    "repository": "https://github.com/CryptKeeperZK/semaphore",
     "homepage": "https://github.com/semaphore-protocol/semaphore/tree/main/packages/group",
     "bugs": {
         "url": "https://github.com/semaphore-protocol/semaphore.git/issues"
@@ -25,9 +26,6 @@
         "build": "rimraf dist && rollup -c rollup.config.ts --configPlugin typescript",
         "prepublishOnly": "yarn build",
         "docs": "typedoc src/index.ts --out ../../docs/group"
-    },
-    "publishConfig": {
-        "access": "public"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^24.0.1",

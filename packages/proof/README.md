@@ -12,11 +12,11 @@
     <a href="https://github.com/semaphore-protocol/semaphore/blob/main/LICENSE">
         <img alt="Github license" src="https://img.shields.io/github/license/semaphore-protocol/semaphore.svg?style=flat-square">
     </a>
-    <a href="https://www.npmjs.com/package/@semaphore-protocol/proof">
-        <img alt="NPM version" src="https://img.shields.io/npm/v/@semaphore-protocol/proof?style=flat-square" />
+    <a href="https://www.npmjs.com/package/@cryptkeeperzk/semaphore-proof">
+        <img alt="NPM version" src="https://img.shields.io/npm/v/@cryptkeeperzk/semaphore-proof?style=flat-square" />
     </a>
-    <a href="https://npmjs.org/package/@semaphore-protocol/proof">
-        <img alt="Downloads" src="https://img.shields.io/npm/dm/@semaphore-protocol/proof.svg?style=flat-square" />
+    <a href="https://npmjs.org/package/@cryptkeeperzk/semaphore-proof">
+        <img alt="Downloads" src="https://img.shields.io/npm/dm/@cryptkeeperzk/semaphore-proof.svg?style=flat-square" />
     </a>
     <a href="https://js.semaphore.appliedzkp.org/proof">
         <img alt="Documentation typedoc" src="https://img.shields.io/badge/docs-typedoc-744C7C?style=flat-square">
@@ -56,16 +56,16 @@
 
 ### npm or yarn
 
-Install the `@semaphore-protocol/proof` package and its peer dependencies with npm:
+Install the `@cryptkeeperzk/semaphore-proof` package and its peer dependencies with npm:
 
 ```bash
-npm i @semaphore-protocol/identity @semaphore-protocol/group @semaphore-protocol/proof
+npm i @cryptkeeperzk/semaphore-identity@cryptkeeperzk/semaphore-group @cryptkeeperzk/semaphore-proof
 ```
 
 or yarn:
 
 ```bash
-yarn add @semaphore-protocol/identity @semaphore-protocol/group @semaphore-protocol/proof
+yarn add @cryptkeeperzk/semaphore-identity@cryptkeeperzk/semaphore-group @cryptkeeperzk/semaphore-proof
 ```
 
 ## 📜 Usage
@@ -79,9 +79,9 @@ snarkArtifacts?: _SnarkArtifacts_
 ): Promise\<_SemaphoreFullProof_>
 
 ```typescript
-import { Identity } from "@semaphore-protocol/identity"
-import { Group } from "@semaphore-protocol/group"
-import { generateProof } from "@semaphore-protocol/proof"
+import { Identity } from "@cryptkeeperzk/semaphore-identity"
+import { Group } from "@cryptkeeperzk/semaphore-group"
+import { generateProof } from "@cryptkeeperzk/semaphore-proof"
 import { utils } from "ethers"
 
 const identity = new Identity()
@@ -103,7 +103,7 @@ const fullProof = await generateProof(identity, group, externalNullifier, signal
 \# **verifyProof**(fullProof: _FullProof_, treeDepth: _number_): Promise\<_boolean_>
 
 ```typescript
-import { verifyProof } from "@semaphore-protocol/proof"
+import { verifyProof } from "@cryptkeeperzk/semaphore-proof"
 
 await verifyProof(fullProof, 20)
 ```
@@ -114,8 +114,8 @@ externalNullifier: \__BytesLike | Hexable | number | bigint_
 ): bigint
 
 ```typescript
-import { Identity } from "@semaphore-protocol/identity"
-import { calculateNullifierHash } from "@semaphore-protocol/proof"
+import { Identity } from "@cryptkeeperzk/semaphore-identity"
+import { calculateNullifierHash } from "@cryptkeeperzk/semaphore-proof"
 
 const identity = new Identity()
 const externalNullifier = utils.formatBytes32String("Topic")

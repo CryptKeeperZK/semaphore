@@ -1,8 +1,11 @@
 {
     "name": "@cryptkeeperzk/semaphore-identity",
-    "version": "3.10.1",
+    "version": "3.10.3",
     "description": "A library to create Semaphore identities.",
     "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
     "main": "dist/index.node.js",
     "exports": {
         "import": "./dist/index.mjs",

@@ -1,6 +1,6 @@
 {
     "name": "@cryptkeeperzk/semaphore-proof",
-    "version": "3.10.1",
+    "version": "3.10.3",
     "description": "A library to generate and verify Semaphore proofs.",
     "license": "MIT",
     "main": "dist/index.node.js",
@@ -39,12 +39,12 @@
         "typedoc": "^0.22.11"
     },
     "peerDependencies": {
-        "@cryptkeeperzk/semaphore-group": "3.10.1",
-        "@cryptkeeperzk/semaphore-identity": "3.10.1"
+        "@cryptkeeperzk/semaphore-group": "3.10.3",
+        "@cryptkeeperzk/semaphore-identity": "3.10.3"
     },
     "dependencies": {
         "@cryptkeeperzk/ffjavascript": "^0.2.59",
-        "@cryptkeeperzk/snarkjs": "^0.7.1",
+        "@cryptkeeperzk/snarkjs": "^0.7.2",
         "@ethersproject/bignumber": "^5.5.0",
         "@ethersproject/bytes": "^5.7.0",
         "@ethersproject/keccak256": "^5.7.0",

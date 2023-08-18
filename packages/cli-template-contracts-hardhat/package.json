@@ -1,7 +1,6 @@
 {
     "name": "@cryptkeeperzk/semaphore-cli-template-contracts-hardhat",
-    "private":"true",
-    "version": "3.10.1",
+    "version": "3.10.3",
     "description": "Semaphore Hardhat template.",
     "license": "Unlicense",
     "files": [

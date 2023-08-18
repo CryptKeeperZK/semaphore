@@ -61,7 +61,7 @@
         }
     },
     "dependencies": {
-        "@cryptkeeperzk/snarkjs": "^0.7.1",
+        "@cryptkeeperzk/snarkjs": "^0.7.2",
         "@openzeppelin/contracts": "4.7.3",
         "@zk-kit/incremental-merkle-tree.sol": "1.3.3"
     }

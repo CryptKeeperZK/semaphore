@@ -1,8 +1,7 @@
 {
     "name": "@cryptkeeperzk/semaphore-cli",
-    "private":"true",
     "type": "module",
-    "version": "3.10.1",
+    "version": "3.10.3",
     "description": "A command line tool to set up your Semaphore project and get group data.",
     "license": "MIT",
     "bin": {

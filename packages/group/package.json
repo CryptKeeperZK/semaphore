@@ -1,9 +1,11 @@
 {
     "name": "@cryptkeeperzk/semaphore-group",
-    "private":"true",
-    "version": "3.10.1",
+    "version": "3.10.2",
     "description": "A library to create and manage Semaphore groups.",
     "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
     "main": "dist/index.node.js",
     "exports": {
         "import": "./dist/index.mjs",
